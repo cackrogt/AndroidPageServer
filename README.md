@@ -27,14 +27,24 @@ Further Enhancements
    (this needs our app to converse with another app, in the backgroud, and this might not be possible
    	or might require special permissions);
 
- Why
+Why
 
- 1. For Easy Testing, this seems to very easy, espcially in office scenarios, where users are
- not allowed to host anything on their PCs, and expose the connection.
- 2. It does not require a Server to host, so no additional cost or hassel.
+1. For Easy Testing, this seems to very easy, espcially in office scenarios, where users are
+not allowed to host anything on their PCs, and expose the connection.
+2. It does not require a Server to host, so no additional cost or hassel.
 
- Do Alternatives Exist(Updates Required):
+Do Alternatives Exist(Updates Required):
 
- 1. Deploy Server on AWS for free( time consuming. )
- 2. With some tool like, ngrok, it is possible to do the same, but not from mobile.
+1. Deploy Server on AWS for free( time consuming. )
+2. With some tool like, ngrok, it is possible to do the same, but not from mobile.
+
+Implementation Studies:
+
+https://github.com/NanoHttpd/nanohttpd
+StandAlone Server(Nanohttpd)
+https://github.com/NanoHttpd/nanohttpd#:~:text=Standalone%20file%20server
+https://github.com/NanoHttpd/nanohttpd/blob/master/webserver/src/main/java/org/nanohttpd/webserver/SimpleWebServer.java
+
+As a start we can use this. But later, will like to filter the required parts,
+and then create custom components for them, to then be used by our app.
 
