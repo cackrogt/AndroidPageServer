@@ -48,3 +48,8 @@ https://github.com/NanoHttpd/nanohttpd/blob/master/webserver/src/main/java/org/n
 As a start we can use this. But later, will like to filter the required parts,
 and then create custom components for them, to then be used by our app.
 
+The app is created using above for now.
+Check the following for further understanding:
+LocalOnlyHotspot
+For Local Hotspot based Hosting support.(there seem to be issues with it).
+
